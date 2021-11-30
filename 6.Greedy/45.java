@@ -1,7 +1,7 @@
 import java.lang.Math;
 
 
-public class canJump  
+public class canJump 
 {
     public int Jump(int[] nums)
     {
