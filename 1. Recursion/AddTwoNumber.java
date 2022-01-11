@@ -7,25 +7,11 @@ public class AddTwoNumber {
     }
     public ListNode addTwoNumber(ListNode l1, ListNode l2){
         if(l1 == null && l2 == null && carry == 0)  return null;
-        int t1, t2;
-        ListNode m1, m2;
-        if(l1 == null) {
-            t1 = 0;
-            m1 = null;
-        }
-        else {
-            t1 = l1.val;
-            m1 = l1.next;
-        }
+        int t1 = l1 == null ? 0: l1.val;
+        int t2 = l2 == null ? 0: l2.val;
+        ListNode m1 = l1 == null ? null: l1.next;
+        ListNode m2 = l2 == null ? null: l2.next;
 
-        if(l2 == null) {
-            t2 = 0;
-            m2 = null;
-        }
-        else {
-            t2 = l2.val;
-            m2 = l2.next;
-        }
 
         ListNode result = new ListNode();
 
