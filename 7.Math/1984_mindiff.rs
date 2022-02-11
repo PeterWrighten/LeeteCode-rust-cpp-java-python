@@ -1,0 +1,5 @@
+struct solution{};
+
+impl solution {
+    
+}
