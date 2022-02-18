@@ -4,7 +4,7 @@ impl Solution {
     pub fn longest_palindrome(s: String) -> String {
         let (mut start, mut end) = (0, 0);
         let mut dp = vec![vec![false; s.len()];s.len()];
-        let s = s.chars().collect::<Vec<_>>();
+        let s: Vec<_> = s.chars().collect();
         for i in (0..s.len()).rev() {
             for j in i..s.len() {
                 if i == j || j - i == 1 && s[i] == s[j] {
