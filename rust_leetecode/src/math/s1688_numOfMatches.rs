@@ -1,7 +1,7 @@
-struct solution;
+pub struct Solution;
 
-impl solution {
-    pub num_of_matches(n: i32) -> i32 {
+impl Solution {
+    pub fn num_of_matches(n: i32) -> i32 {
         let mut num = n;
         let mut ans = 0;
         while num != 1 {

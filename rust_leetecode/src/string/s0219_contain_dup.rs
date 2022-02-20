@@ -1,9 +1,9 @@
 use std::collections::HashMap;
 
-struct solution {};
+struct Solution {}
 
-impl solution {
-    fn contain_duplicate(nums: Vec<i32>, k: i32) -> bool {
+impl Solution {
+    pub fn contain_duplicate(nums: Vec<i32>, k: i32) -> bool {
         let mut map = HashMap::new();
         for (idx, &num) in nums.iter().enumerate() {
             match map.get(&num) {

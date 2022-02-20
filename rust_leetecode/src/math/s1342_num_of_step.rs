@@ -1,6 +1,6 @@
 
-struct solution;
-impl solution {
+pub struct Solution;
+impl Solution {
     pub fn number_of_steps(mut num: i32) -> i32 {
         let mut count = 0;
         loop {

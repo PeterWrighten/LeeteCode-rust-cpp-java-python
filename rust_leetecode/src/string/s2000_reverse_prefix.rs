@@ -1,6 +1,6 @@
-struct solution;
+pub struct Solution{}
 
-impl solution {
+impl Solution {
     pub fn reverse_prefix(word: String, ch: char) -> String {
         let mut n = 0;
         let len = word.len();
