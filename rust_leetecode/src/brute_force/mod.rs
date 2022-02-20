@@ -1,0 +1,1 @@
+mod s1725_count_good_rec;
