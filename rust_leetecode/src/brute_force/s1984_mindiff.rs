@@ -1,7 +1,7 @@
 pub struct Solution{}
 
 impl Solution {
-    fn min_diff(nums: Vec<i32>, k: i32) -> i32 {
+    pub fn min_diff(nums: Vec<i32>, k: i32) -> i32 {
         let mut nums = nums;
         nums.sort();
         let mut ans = i32::MAX;
@@ -10,4 +10,14 @@ impl Solution {
         }
         ans
     }
+ }
+
+ #[cfg(test)]
+ mod tests {
+     use super::*;
+     #[test]
+     fn test_s1984() {
+         assert_eq!(0, Solution::min_diff(vec![90], 1));
+         assert_eq!(2, Solution::min_diff(vec![9, 4, 1, 7], 2));
+     }
  }
