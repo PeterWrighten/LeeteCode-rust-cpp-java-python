@@ -23,3 +23,12 @@ impl Solution {
         
 }
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn test_s0005() {
+        assert_eq!("aba".to_string(), Solution::longest_palindrome("babad".to_string()));
+        assert_eq!("bb".to_string(), Solution::longest_palindrome("cbbd".to_string()));
+    }
+}

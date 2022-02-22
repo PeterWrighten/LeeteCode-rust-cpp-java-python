@@ -10,3 +10,13 @@ impl Solution {
             .unwrap()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn test_s1984() {
+        assert_eq!(0, Solution::min_diff(vec![90], 1));
+        assert_eq!(2, Solution::min_diff(vec![9, 4, 1, 7], 2));
+    }
+}
