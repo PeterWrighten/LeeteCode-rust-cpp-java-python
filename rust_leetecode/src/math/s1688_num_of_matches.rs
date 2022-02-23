@@ -16,3 +16,13 @@ impl Solution {
         ans
     }
 }
+
+#[cfg(test)]
+mod test {
+    use super::*;
+    #[test]
+    fn test_s1688() {
+        assert_eq!(6, Solution::num_of_matches(7));
+        assert_eq!(13, Solution::num_of_matches(14));
+    }
+}

@@ -15,3 +15,14 @@ impl Solution {
         count
     }
 }
+
+#[cfg(test)]
+mod test {
+    use super::*;
+    #[test]
+    fn test_s1342() {
+        assert_eq!(6, Solution::number_of_steps(14));
+        assert_eq!(4, Solution::number_of_steps(8));
+        assert_eq!(12, Solution::number_of_steps(123));
+    }
+}
