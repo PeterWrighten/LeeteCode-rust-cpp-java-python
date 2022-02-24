@@ -32,7 +32,7 @@ mod tests{
     use super::*;
     #[test]
     fn test_s0350() {
-        assert_eq!();
-        assert_eq!();
+        assert_eq!(vec![], Solution::intersect(vec![], vec![]));
+        assert_eq!(vec![], Solution::intersect(vec![], vec![]));
     }
 }
