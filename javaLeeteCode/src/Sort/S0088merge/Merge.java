@@ -1,5 +1,6 @@
+package Sort.S0088merge;
 
-public class Merge {
+class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] sorted = new int[m+n];
         int i = 0, j = 0;

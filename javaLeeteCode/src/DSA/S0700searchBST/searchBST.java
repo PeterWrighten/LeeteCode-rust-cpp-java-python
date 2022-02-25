@@ -1,6 +1,6 @@
-import java.sql.Struct;
+package DSA.S0700searchBST;
 
-public class searchBST
+class Solution
 {
     private class TreeNode
     {

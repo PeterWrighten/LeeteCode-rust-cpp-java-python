@@ -1,5 +1,5 @@
 /* leetecode: 14 */
-
+package String.S0014longestCommonPrefix;
 import java.lang.Math;
 
 class Solution {

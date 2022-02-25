@@ -1,6 +1,6 @@
+package Recursion.S0206reverseList;
 
-
-public class reverseList 
+class Solution
 {   
     class Node
     {
@@ -10,7 +10,7 @@ public class reverseList
     private Node first = null;
     public Node reverse(Node head)
     {
-        if(head.next == null || head == null)
+        if(head == null || head.next == null)
         {
             return head;
         }
@@ -41,7 +41,7 @@ public class reverseList
 
     public static void main(String[] args)
     {
-        reverseList s = new reverseList();
+        Solution s = new Solution();
         s.insert(1);
         s.insert(4);
         s.insert(8);

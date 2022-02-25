@@ -1,4 +1,6 @@
-public class AddTwoNumber {
+package Recursion.S0001addTwoNumber;
+
+class Solution {
     private int carry = 0;
     private class ListNode {
         int val;
