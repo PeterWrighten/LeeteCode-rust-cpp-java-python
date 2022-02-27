@@ -1,4 +1,4 @@
-pub struct Solution {}
+pub struct Solution;
  impl Solution {
      pub fn matrix_reshape(mat: Vec<Vec<i32>>, r: i32, c: i32) -> Vec<Vec<i32>> {
          if mat.len() * mat[0].len() == (r * c) as usize {

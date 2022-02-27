@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn contains_duplicate(nums: Vec<i32>) -> bool {

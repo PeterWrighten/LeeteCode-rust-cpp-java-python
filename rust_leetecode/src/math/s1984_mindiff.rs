@@ -1,4 +1,4 @@
-pub struct Solution{}
+pub struct Solution;
 
 impl Solution {
     pub fn min_diff(nums: Vec<i32>, k: i32) -> i32 {
